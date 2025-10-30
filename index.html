@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('https://uploadkon.ir/uploads/e7ef26_25Phoenix-10-A-deep-rich-royal-purple-background-with-subtle-gol-1.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+        .pricing {
+            font-size: 4em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .plans {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .plan {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            width: 200px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .plan h2 {
+            margin: 0 0 10px;
+            font-size: 1.5em;
+        }
+        .plan p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .plan ul {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+        }
+        .plan ul li {
+            margin: 10px 0;
+        }
+        .plan button {
+            background: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .plan button:hover {
+            background: #ddd;
+        }
+        .toggle {
+            margin-top: 20px;
+        }
+        .toggle label {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="pricing">Pricing</div>
+        <div class="plans">
+            <div class="plan">
+                <h2>Free Plan</h2>
+                <p>Free</p>
+                <ul>
+                    <li>Send up to 2 transfers per month</li>
+                    <li>Basic transaction history</li>
+                    <li>Email support</li>
+                    <li>Limited currency support (USD, EUR, GBP)</li>
+                    <li>Basic security features</li>
+                </ul>
+                <button>Get Started</button>
+            </div>
+            <div class="plan">
+                <h2>Standard Plan</h2>
+                <p>$9.99/m</p>
+                <ul>
+                    <li>Unlimited transfers</li>
+                    <li>Transaction history with export</li>
+                    <li>Priority email support</li>
+                    <li>Expanded currency support</li>
+                    <li>Advanced security features</li>
+                </ul>
+                <button>Get Started</button>
+            </div>
+            <div class="plan">
+                <h2>Free Plan</h2>
+                <p>$19.99/m</p>
+                <ul>
+                    <li>Unlimited transfers with priority processing</li>
+                    <li>Comprehensive transaction analytics</li>
+                    <li>24/7 priority support</li>
+                    <li>Full currency support</li>
+                    <li>Enhanced security features</li>
+                </ul>
+                <button>Get Started</button>
+            </div>
+        </div>
+        <div class="toggle">
+            <input type="checkbox" id="billing">
+            <label for="billing">Billed Yearly</label>
+        </div>
+    </div>
+</body>
+</html>
